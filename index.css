@@ -1,0 +1,80 @@
+.box1{
+    margin-top:1cm;
+    background-color: rgba(212, 212, 212, 0.507);
+    width:25%;
+    text-align:center;
+    border-radius:30px;
+    padding-top:0.5cm;
+    margin-bottom: 40px;
+}
+.body{
+    background-image: url("bg2.jpg");
+    background-repeat: no-repeat;
+    height:14cm;
+    margin:0;
+}
+nav{
+    background-color: aliceblue;
+    border-radius: 0 0 15px 15px;
+}
+h5{
+    margin-top: 10px;
+}
+.btn{
+    border-radius: 100px;
+    width: 100px;
+}
+a{
+    margin: 0 0 0 20px;
+}
+body{
+    background-color: rgba(92, 146, 216, 0.795);
+    margin:0;
+    padding:0;
+    width: 100%;
+}
+h1{
+    font-family: "Audiowide", sans-serif;
+}
+.prdsec{
+    background-color: white;
+    margin:0;
+    border-radius: 25px;
+    height:10.5cm;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1cm;
+}
+.img1, .img2, .img3{
+    position: relative;
+    height : 180px;
+    width: 180px;
+}
+.boxbtn{
+    position: relative;
+    margin-top: 20px;
+    width: 250px;
+}
+.contact-box{
+    background-color: white;
+    width: 100%;
+    border-radius: 25px;
+    text-align: center;
+    margin-bottom: 1cm;
+    padding-top:.5cm;
+    padding-bottom:.5cm;
+}
+input{
+    border-top:none;
+    border-right:none;
+    border-left: none;
+    outline: none;
+    width: 10cm;
+    margin-top:35px;
+    text-align: center;
+    padding-bottom:2px;
+}
+textarea{
+    margin-top: 35px;
+}
