@@ -1,12 +1,4 @@
-.box1{
-    margin-top:1cm;
-    background-color: rgba(212, 212, 212, 0.507);
-    width:25%;
-    text-align:center;
-    border-radius:30px;
-    padding-top:0.5cm;
-    margin-bottom: 40px;
-}
+
 .body{
     background-image: url("bg2.jpg");
     background-repeat: no-repeat;
@@ -36,16 +28,6 @@ body{
 h1{
     font-family: "Audiowide", sans-serif;
 }
-.prdsec{
-    background-color: white;
-    margin:0;
-    border-radius: 25px;
-    height:10.5cm;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    margin-bottom: 1cm;
-}
 .img1, .img2, .img3{
     position: relative;
     height : 180px;
@@ -63,7 +45,8 @@ h1{
     text-align: center;
     margin-bottom: 1cm;
     padding-top:.5cm;
-    padding-bottom:.5cm;
+    padding-bottom:.25cm;
+    padding-top:1.25cm;
 }
 input{
     border-top:none;
@@ -74,7 +57,85 @@ input{
     margin-top:35px;
     text-align: center;
     padding-bottom:2px;
+    border-radius: 10px;
+    height: 35px;
 }
 textarea{
     margin-top: 35px;
+    border-radius: 10px;
+    padding-left: 15px;
+}
+.prdsec{
+    background-color: white;
+    margin:0;
+    border-radius: 25px 25px 0 0;
+    height:10.5cm;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.box1{
+    margin-top:1cm;
+    background-color: rgba(212, 212, 212, 0.507);
+    width:25%;
+    text-align:center;
+    border-radius:30px;
+    padding-top:0.5cm;
+    margin-bottom: 40px;
+}
+.prdsec2{
+    background-color: white;
+    margin:0;
+    border-radius: 0 0 25px 25px;
+    height:9.5cm;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1cm;
+}
+.box2{
+    background-color: rgba(212, 212, 212, 0.507);
+    width:25%;
+    text-align:center;
+    border-radius:30px;
+    padding-top:0.5cm;
+    margin-bottom: 40px;
+}
+.box3{
+    background-color: rgba(212, 212, 212, 0.507);
+    width:50%;
+    text-align:center;
+    border-radius:30px;
+    padding-top:0.5cm;
+    margin-bottom: 40px;
+    position: relative;
+    left:50%;
+    transform: translate(-50%);
+}
+.img1, .img2, .img3{
+    position: relative;
+    height : 180px;
+    width: 180px;
+}
+.img4, .img5, .img6{
+    position: relative;
+    height : 180px;
+    width: 180px;
+}
+.boxbtn{
+    position: relative;
+    margin-top: 20px;
+    width: 250px;
+}
+.footer{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.911);
+    color:white;
+    border-radius: 25px 25px 0 0;
+    padding-top:1cm;
+    padding-bottom:1cm;
+}
+.row1,.row2{
+    display:flex;
+    justify-content: space-around;
 }
