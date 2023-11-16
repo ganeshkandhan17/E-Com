@@ -9,6 +9,14 @@ Welcome to Zaya Ecom, a static e-commerce website built with HTML and CSS. While
   <li>Product showcase with detailed descriptions.</li>
 </ul>
 
+<h3>🛠️ Tech Stack:</h3>
+
+<ul>
+  <li>HTML</li>
+  <li>CSS</li>
+</ul>
+
+
 <h3>📸 Screenshots:</h3>
 
 ![image](https://github.com/ganeshkandhan17/E-Com/assets/87404827/73614945-0bf2-4710-90ea-b5789f0b14eb)
